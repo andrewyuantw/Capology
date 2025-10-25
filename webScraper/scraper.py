@@ -4,36 +4,43 @@ from bs4 import BeautifulSoup
 
 def parse_nba_salaries(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
-    rows = soup.find_all('tr')
+    capHoldTableIndicator = "Qualifying Offer"
+    tables = soup.find_all('table')
     player_salaries = {}
-    # We want to leave out the Cap Hold Cap table
-    gotten_to_first_table = False
-    
-    for row in rows:
-        cells = row.find_all('td')
-        if len(cells) < 9:
-            if gotten_to_first_table:
-                break
-            gotten_to_first_table = True
+
+    for table in tables:
+        # Check header row
+        headers = [th.get_text(strip=True) for th in table.find_all('th')]
+        if not headers or len(headers) < 9:
+            continue
+        if any(capHoldTableIndicator in h for h in headers):
             continue
 
-        player_link = cells[0].find('a', class_='link')
-        if not player_link:
-            continue
+        # Parse rows
+        for row in table.find_all('tr'):
+            cells = row.find_all('td')
+            if len(cells) < 9:
+                continue
 
-        player_name = player_link.text.strip()
-        salary_export = cells[4].get('data-sort')
+            player_link = cells[0].find('a', class_='link')
+            if not player_link:
+                continue
 
-        if salary_export and salary_export.isdigit():
-            player_salaries[player_name] = int(salary_export)
-    
+            player_name = player_link.text.strip()
+            salary_export = cells[4].get('data-sort')
+
+            if salary_export and salary_export.isdigit():
+                player_salaries[player_name] = int(salary_export)
+
     return player_salaries
 
 def parse_from_url(url, headers=None, timeout=30):
     headers = headers or {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) '
-                      'Chrome/91.0.4472.124 Safari/537.36'
+        'User-Agent': (
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/91.0.4472.124 Safari/537.36'
+        )
     }
     try:
         response = requests.get(url, headers=headers, timeout=timeout)
@@ -76,7 +83,7 @@ if __name__ == "__main__":
         "Cavaliers": "https://www.spotrac.com/nba/cleveland-cavaliers/cap/_/year/2025",
         "Warriors": "https://www.spotrac.com/nba/golden-state-warriors/cap/_/year/2025"
     }
-    
+
     result = {}
     for team, url in team_urls.items():
         result[team] = parse_from_url(url)

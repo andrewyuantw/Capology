@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 import nbaSalaries from "../data/nba_salaries.json";
@@ -7,8 +7,14 @@ import nbaSalaries from "../data/nba_salaries.json";
 const TOTAL_CAP = 240_000_000;
 
 const COLOR_POOL = [
-  "bg-red-500", "bg-blue-600", "bg-green-600", "bg-yellow-500",
-  "bg-purple-500", "bg-pink-500", "bg-teal-500", "bg-orange-500",
+  "bg-red-500",
+  "bg-blue-600",
+  "bg-green-600",
+  "bg-yellow-500",
+  "bg-purple-500",
+  "bg-pink-500",
+  "bg-teal-500",
+  "bg-orange-500",
 ];
 
 const THRESHOLDS = [
@@ -51,7 +57,15 @@ function TeamSelector({
   );
 }
 
-function PlayerBar({ name, value, color }: { name: string; value: number; color: string }) {
+function PlayerBar({
+  name,
+  value,
+  color,
+}: {
+  name: string;
+  value: number;
+  color: string;
+}) {
   const widthPercent = (value / TOTAL_CAP) * 100;
   return (
     <div
@@ -88,7 +102,7 @@ export default function CapBarHorizontal() {
   const playerContracts = assignColors(
     Object.entries(rawTeamData)
       .map(([name, value]) => ({ name, value: Number(value) }))
-      .sort((a, b) => a.value - b.value)
+      .sort((a, b) => a.value - b.value),
   );
 
   const totalSalary = playerContracts.reduce((sum, p) => sum + p.value, 0);
