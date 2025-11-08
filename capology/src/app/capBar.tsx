@@ -58,25 +58,32 @@ function TeamSelector({
 }
 
 function PlayerBar({
-  name,
-  value,
-  color,
-}: {
-  name: string;
-  value: number;
-  color: string;
-}) {
-  const widthPercent = (value / TOTAL_CAP) * 100;
-  return (
-    <div
-      className={`${color} h-full flex items-center justify-center text-xs text-white font-semibold`}
-      style={{ width: `${widthPercent}%` }}
-      title={`${name}: $${value.toLocaleString()}`}
-    >
-      {name}
-    </div>
-  );
-}
+    name,
+    value,
+    color,
+  }: {
+    name: string;
+    value: number;
+    color: string;
+  }) {
+    const widthPercent = (value / TOTAL_CAP) * 100;
+    const showLabel = widthPercent > 3;
+    return (
+      <div
+        className={`${color} relative h-full flex items-center justify-center text-xs text-white font-semibold 
+          transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg cursor-pointer group`}
+        style={{ width: `${widthPercent}%` }}
+        title={`${name}: $${value.toLocaleString()}`}
+      >
+        {widthPercent > 3 && name}
+        {!showLabel && (
+        <span className="absolute bottom-full mb-1 hidden group-hover:block bg-black text-white text-[10px] px-2 py-1 rounded whitespace-nowrap z-10">
+          {name}
+        </span>
+      )}
+      </div>
+    );
+  }
 
 function ThresholdLine({ label, value }: { label: string; value: number }) {
   const leftPercent = (value / TOTAL_CAP) * 100;
