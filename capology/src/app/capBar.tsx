@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import nbaSalaries from "../data/nba_salaries.json";
+import playerImages from "../data/player_images.json";
 
 // === Constants ===
 const TOTAL_CAP = 240_000_000;
@@ -58,32 +59,59 @@ function TeamSelector({
 }
 
 function PlayerBar({
-    name,
-    value,
-    color,
-  }: {
-    name: string;
-    value: number;
-    color: string;
-  }) {
-    const widthPercent = (value / TOTAL_CAP) * 100;
-    const showLabel = widthPercent > 3;
-    return (
-      <div
-        className={`${color} relative h-full flex items-center justify-center text-xs text-white font-semibold 
-          transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg cursor-pointer group`}
-        style={{ width: `${widthPercent}%` }}
-        title={`${name}: $${value.toLocaleString()}`}
-      >
-        {widthPercent > 3 && name}
-        {!showLabel && (
-        <span className="absolute bottom-full mb-1 hidden group-hover:block bg-black text-white text-[10px] px-2 py-1 rounded whitespace-nowrap z-10">
-          {name}
-        </span>
-      )}
+  name,
+  value,
+  color,
+  image,
+}: {
+  name: string;
+  value: number;
+  color: string;
+  image?: string | null;
+}) {
+  const widthPercent = (value / TOTAL_CAP) * 100;
+  const minLabelWidthPercent = 6; // prevents edge crowding
+  const showLabel = widthPercent > minLabelWidthPercent;
+
+  return (
+    <div
+      className={`${color} relative h-full flex items-center justify-center text-xs text-white font-semibold 
+          transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-0.5 hover:shadow-lg 
+          cursor-pointer group`}
+      style={{ width: `${widthPercent}%` }}
+    >
+      {showLabel ? name : null}
+
+      {/* Tooltip */}
+      <div className="absolute z-50 hidden group-hover:flex flex-col items-center bottom-full mb-3">
+        <div
+          className="bg-black text-white rounded-xl p-4 shadow-2xl 
+                  flex gap-4 items-center max-w-[260px] text-sm"
+        >
+          {image ? (
+            <img
+              src={image}
+              alt={name}
+              className="w-14 h-14 rounded-lg object-cover border border-gray-600 shrink-0"
+            />
+          ) : (
+            <div className="w-14 h-14 bg-gray-700 rounded-lg flex items-center justify-center text-[10px] shrink-0">
+              N/A
+            </div>
+          )}
+
+          <div className="flex flex-col leading-tight break-words">
+            <span className="font-bold text-base">{name}</span>
+            <span className="opacity-80">${value.toLocaleString()}</span>
+          </div>
+        </div>
+
+        {/* Tooltip arrow */}
+        <div className="w-3 h-3 bg-black rotate-45 -mt-1"></div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 function ThresholdLine({ label, value }: { label: string; value: number }) {
   const leftPercent = (value / TOTAL_CAP) * 100;
@@ -108,7 +136,11 @@ export default function CapBarHorizontal() {
   const rawTeamData = nbaSalaries[selectedTeam];
   const playerContracts = assignColors(
     Object.entries(rawTeamData)
-      .map(([name, value]) => ({ name, value: Number(value) }))
+      .map(([name, value]) => ({
+        name,
+        value: Number(value),
+        image: playerImages[name] ?? null,
+      }))
       .sort((a, b) => a.value - b.value),
   );
 
