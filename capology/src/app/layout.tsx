@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Capology — NBA Salary Cap Dashboard",
   description: "NBA team salary cap breakdowns and visualizations",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
