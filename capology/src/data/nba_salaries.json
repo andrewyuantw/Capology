@@ -33,6 +33,7 @@
     "Josh Minott": 2378870,
     "Jalen Wilson": 2221677,
     "Grant Nelson": 73153,
+    "Malachi Smith": 42650,
     "Cameron Thomas": 5993172,
     "Haywood Highsmith": 5616000,
     "Kobe Bufkin": 4503720,
@@ -45,7 +46,6 @@
     "D'Andre Davis": 85300,
     "David Muoka": 85300,
     "Trevon Scott": 45000,
-    "Malachi Smith": 42650,
     "Terry Roberts": 25000
   },
   "Jazz": {
@@ -62,11 +62,14 @@
     "Kyle Filipowski": 3000000,
     "Brice Sensabaugh": 2693760,
     "Isaiah Collier": 2638200,
-    "Mohamed Bamba": 131970,
+    "Bez Mbeng": 73153,
     "Jordan Clarkson": 10651561,
     "Lonzo Ball": 10000000,
     "Vincent Williams Jr.": 2301587,
-    "Chris Boucher": 2296274
+    "Chris Boucher": 2296274,
+    "Mohamed Bamba": 131970,
+    "Kennedy Chandler": 117730,
+    "Andersson Garcia": 73153
   },
   "Bucks": {
     "Giannis Antetokounmpo": 54126450,
@@ -84,6 +87,7 @@
     "Thanasis Antetokounmpo": 2296274,
     "Andre Jackson Jr.": 2221677,
     "Cameron Thomas": 844607,
+    "Pete Nance": 277137,
     "Damian Lillard": 22516603,
     "Chris Livingston": 2296274,
     "Nigel Hayes-Davis": 2048494,
@@ -116,7 +120,6 @@
     "Zach Collins": 18080496,
     "Patrick Williams": 18000000,
     "Isaac Okoro": 11000000,
-    "Jaden Ivey": 10107163,
     "Jalen Smith": 9000000,
     "Tre Jones": 8000000,
     "Rob Dillingham": 6576120,
@@ -125,6 +128,7 @@
     "Noa Essengue": 5429520,
     "Nick Richards": 5000000,
     "Leonard Miller": 2221677,
+    "Jaden Ivey": 10107163,
     "Jevon Carter": 6809524
   },
   "Grizzlies": {
@@ -143,6 +147,8 @@
     "Jaylen Wells": 1955377,
     "Taj Gibson": 960753,
     "Olivier-Maxence Prosper": 527879,
+    "DeJon Jarreau": 131970,
+    "Tyler Burton": 73153,
     "Kyle Anderson": 8300531,
     "Georges Niang": 8200000,
     "Cole Anthony": 3700000,
@@ -252,7 +258,8 @@
     "Tristan Da Silva": 3809520,
     "Jase Richardson": 2983320,
     "Noah Penda": 1272870,
-    "Jevon Carter": 871000
+    "Jevon Carter": 871000,
+    "Jamal Cain": 316727
   },
   "Rockets": {
     "Kevin Durant": 54708609,
@@ -417,7 +424,8 @@
     "Precious Achiuwa": 2111516,
     "Maxime Raynaud": 1272870,
     "Dylan Cardwell": 871000,
-    "Killian Hayes": 131970
+    "Killian Hayes": 131970,
+    "DaQuan Jeffries": 131970
   },
   "Suns": {
     "Devin Booker": 53142264,
@@ -455,6 +463,7 @@
     "Jamison Battle": 1955377,
     "Jonathan Mogbo": 1955377,
     "Jamal Shead": 1955377,
+    "Markelle Fultz": 131970,
     "Chris Paul": 2296274,
     "Mohamed Bamba": 194771
   },
@@ -509,6 +518,8 @@
     "Neemias Queta": 2349578,
     "Jordan Walsh": 2221677,
     "Amari Williams": 490128,
+    "Max Shulga": 212145,
+    "Charles Bassey": 131970,
     "Dalano Banton": 131970,
     "John Tonje": 73153
   },
@@ -587,6 +598,7 @@
     "Quinten Post": 1955377,
     "Seth Curry": 1755198,
     "Will Richard": 1272870,
-    "Pat Spencer": 857804
+    "Pat Spencer": 857804,
+    "Omer Yurtseven": 131970
   }
 }
