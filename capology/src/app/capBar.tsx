@@ -442,13 +442,16 @@ export default function CapDashboard() {
                             }}
                           />
                           {p.image ? (
-                            <Image
-                              src={p.image}
-                              alt={p.name}
-                              width={32}
-                              height={32}
-                              className="rounded-full object-cover border border-[#334155] shrink-0"
-                            />
+                            <div className="w-8 h-8 rounded-full overflow-hidden border border-[#334155] shrink-0">
+                              <Image
+                                src={p.image}
+                                alt={p.name}
+                                width={32}
+                                height={32}
+                                unoptimized
+                                className="object-cover w-full h-full"
+                              />
+                            </div>
                           ) : (
                             <div className="w-8 h-8 rounded-full bg-[#334155] flex items-center justify-center text-[9px] text-gray-400 shrink-0 font-semibold">
                               {p.name
