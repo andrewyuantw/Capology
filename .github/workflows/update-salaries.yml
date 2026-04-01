@@ -1,0 +1,33 @@
+name: Update Salary Data
+
+on:
+  schedule:
+    - cron: '0 8 * * 2'  # Every Tuesday at 8am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r webScraper/requirements.txt
+
+      - name: Run salary scraper
+        working-directory: webScraper
+        run: python update_salaries.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add capology/src/data/nba_salaries.json
+          git diff --staged --quiet && echo "No changes" || (git commit -m "chore: update NBA salary data" && git push)
