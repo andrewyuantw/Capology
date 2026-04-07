@@ -32,6 +32,7 @@
     "Danny Wolf": 2801280,
     "Josh Minott": 2378870,
     "Jalen Wilson": 2221677,
+    "Trevon Scott": 45000,
     "Grant Nelson": 73153,
     "Malachi Smith": 42650,
     "Cameron Thomas": 5993172,
@@ -45,7 +46,6 @@
     "Yuri Collins": 85300,
     "D'Andre Davis": 85300,
     "David Muoka": 85300,
-    "Trevon Scott": 45000,
     "Terry Roberts": 25000
   },
   "Jazz": {
@@ -62,13 +62,13 @@
     "Kyle Filipowski": 3000000,
     "Brice Sensabaugh": 2693760,
     "Isaiah Collier": 2638200,
+    "Kennedy Chandler": 117730,
     "Bez Mbeng": 73153,
     "Jordan Clarkson": 10651561,
     "Lonzo Ball": 10000000,
     "Vincent Williams Jr.": 2301587,
     "Chris Boucher": 2296274,
     "Mohamed Bamba": 131970,
-    "Kennedy Chandler": 117730,
     "Andersson Garcia": 73153
   },
   "Bucks": {
@@ -87,7 +87,7 @@
     "Thanasis Antetokounmpo": 2296274,
     "Andre Jackson Jr.": 2221677,
     "Cameron Thomas": 844607,
-    "Pete Nance": 277137,
+    "Pete Nance": 600000,
     "Damian Lillard": 22516603,
     "Chris Livingston": 2296274,
     "Nigel Hayes-Davis": 2048494,
@@ -147,8 +147,8 @@
     "Jaylen Wells": 1955377,
     "Taj Gibson": 960753,
     "Olivier-Maxence Prosper": 527879,
-    "DeJon Jarreau": 131970,
-    "Tyler Burton": 73153,
+    "Toby Okani": 73153,
+    "Lucas Williamson": 73153,
     "Kyle Anderson": 8300531,
     "Georges Niang": 8200000,
     "Cole Anthony": 3700000,
@@ -156,9 +156,11 @@
     "Mamadi Diakite": 464050,
     "Charles Bassey": 131970,
     "Kobe Bufkin": 131970,
+    "DeJon Jarreau": 131970,
     "Christian Koloko": 131970,
     "Rayan Rupert": 131970,
-    "Lawson Lovering": 87784
+    "Lawson Lovering": 87784,
+    "Tyler Burton": 73153
   },
   "Pacers": {
     "Tyrese Haliburton": 45550512,
@@ -222,6 +224,7 @@
     "Thomas Sorber": 4655040,
     "Jared McCain": 4221360,
     "Ajay Mitchell": 3000000,
+    "Dariq Whitehead": 131970,
     "Mason Plumlee": 2296274
   },
   "Hawks": {
@@ -239,10 +242,11 @@
     "Jock Landale": 2296274,
     "Keaton Wallace": 2296274,
     "Mouhamed Gueye": 2221677,
-    "Nikola Djurisic": 1272870,
-    "Caleb Houstan": 699440,
+    "Tony Bradley": 92379,
     "Duop Reath": 2221677,
-    "N'Faly Dante": 2048494
+    "N'Faly Dante": 2048494,
+    "Nikola Djurisic": 1272870,
+    "Caleb Houstan": 699440
   },
   "Magic": {
     "Franz Wagner": 38661750,
@@ -463,9 +467,10 @@
     "Jamison Battle": 1955377,
     "Jonathan Mogbo": 1955377,
     "Jamal Shead": 1955377,
-    "Markelle Fultz": 131970,
+    "Tyreke Key": 51207,
     "Chris Paul": 2296274,
-    "Mohamed Bamba": 194771
+    "Mohamed Bamba": 194771,
+    "Markelle Fultz": 131970
   },
   "Mavs": {
     "Kyrie Irving": 36566002,
@@ -503,7 +508,8 @@
     "Tyler Kolek": 2191897,
     "Ariel Hukporti": 1955377,
     "Mohamed Diawara": 1272870,
-    "Jeremy Sochan": 778622
+    "Jeremy Sochan": 778622,
+    "Adama Bal": 73153
   },
   "Celtics": {
     "Jayson Tatum": 54126450,
@@ -519,8 +525,9 @@
     "Jordan Walsh": 2221677,
     "Amari Williams": 490128,
     "Max Shulga": 212145,
-    "Charles Bassey": 131970,
+    "Ron Harper Jr.": 123045,
     "Dalano Banton": 131970,
+    "Charles Bassey": 131970,
     "John Tonje": 73153
   },
   "Wizards": {
@@ -599,6 +606,7 @@
     "Seth Curry": 1755198,
     "Will Richard": 1272870,
     "Pat Spencer": 857804,
+    "Charles Bassey": 105576,
     "Omer Yurtseven": 131970
   }
 }
