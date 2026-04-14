@@ -14,6 +14,7 @@
     "Jaxson Hayes": 3449323,
     "Bronny James": 1955377,
     "Adou Thiero": 1272870,
+    "Nick Smith Jr.": 13197,
     "Kobe Bufkin": 131970,
     "Augustas Marciulionis": 15000
   },
@@ -32,7 +33,6 @@
     "Danny Wolf": 2801280,
     "Josh Minott": 2378870,
     "Jalen Wilson": 2221677,
-    "Trevon Scott": 45000,
     "Grant Nelson": 73153,
     "Malachi Smith": 42650,
     "Cameron Thomas": 5993172,
@@ -42,6 +42,7 @@
     "Hunter Tyson": 2221677,
     "Tyrese Martin": 2191897,
     "Keon Johnson": 271614,
+    "Trevon Scott": 11773,
     "Maxwell Lewis": 100000,
     "Yuri Collins": 85300,
     "D'Andre Davis": 85300,
@@ -62,13 +63,13 @@
     "Kyle Filipowski": 3000000,
     "Brice Sensabaugh": 2693760,
     "Isaiah Collier": 2638200,
-    "Kennedy Chandler": 117730,
     "Bez Mbeng": 73153,
     "Jordan Clarkson": 10651561,
     "Lonzo Ball": 10000000,
     "Vincent Williams Jr.": 2301587,
     "Chris Boucher": 2296274,
     "Mohamed Bamba": 131970,
+    "Kennedy Chandler": 117730,
     "Andersson Garcia": 73153
   },
   "Bucks": {
@@ -108,10 +109,11 @@
     "Daniss Jenkins": 3809524,
     "Marcus Sasser": 2886720,
     "Javonte Green": 2296274,
-    "Bobi Klintman": 1955377,
     "Chaz Lanier": 1272870,
+    "Tolu Smith III": 70638,
     "Dario Saric": 5426400,
-    "Isaac Jones": 1955377
+    "Isaac Jones": 1955377,
+    "Bobi Klintman": 1955377
   },
   "Bulls": {
     "Anfernee Simons": 27678571,
@@ -128,6 +130,7 @@
     "Noa Essengue": 5429520,
     "Nick Richards": 5000000,
     "Leonard Miller": 2221677,
+    "Mouhamadou Gueye": 47092,
     "Jaden Ivey": 10107163,
     "Jevon Carter": 6809524
   },
@@ -147,8 +150,6 @@
     "Jaylen Wells": 1955377,
     "Taj Gibson": 960753,
     "Olivier-Maxence Prosper": 527879,
-    "Toby Okani": 73153,
-    "Lucas Williamson": 73153,
     "Kyle Anderson": 8300531,
     "Georges Niang": 8200000,
     "Cole Anthony": 3700000,
@@ -160,7 +161,10 @@
     "Christian Koloko": 131970,
     "Rayan Rupert": 131970,
     "Lawson Lovering": 87784,
-    "Tyler Burton": 73153
+    "Tyler Burton": 73153,
+    "Toby Okani": 73153,
+    "Lucas Williamson": 21946,
+    "Adama Bal": 43892
   },
   "Pacers": {
     "Tyrese Haliburton": 45550512,
@@ -224,8 +228,8 @@
     "Thomas Sorber": 4655040,
     "Jared McCain": 4221360,
     "Ajay Mitchell": 3000000,
-    "Dariq Whitehead": 131970,
-    "Mason Plumlee": 2296274
+    "Mason Plumlee": 2296274,
+    "Dariq Whitehead": 131970
   },
   "Hawks": {
     "C.J. McCollum": 30666666,
@@ -279,7 +283,8 @@
     "Jeff Green": 2296274,
     "Aaron Holiday": 2296274,
     "Josh Okogie": 2296274,
-    "Jae\u2019Sean Tate": 2296274
+    "Jae\u2019Sean Tate": 2296274,
+    "J.D. Davison": 82030
   },
   "Trailblazers": {
     "Jrue Holiday": 32400000,
@@ -305,7 +310,6 @@
     "Bam Adebayo": 37096620,
     "Tyler Herro": 31000000,
     "Andrew Wiggins": 28223215,
-    "Terry Rozier": 26643031,
     "Norman Powell": 20482758,
     "Davion Mitchell": 11600000,
     "Simone Fontecchio": 8307692,
@@ -316,7 +320,9 @@
     "Dru Smith": 2378870,
     "Keshad Johnson": 1955377,
     "Pelle Larsson": 1955377,
-    "Myron Gardner": 395029
+    "Myron Gardner": 395029,
+    "Jahmir Young": 23546,
+    "Terry Rozier": 26643031
   },
   "Spurs": {
     "De'Aaron Fox": 37096620,
@@ -372,6 +378,7 @@
     "Adem Bona": 1955377,
     "Johni Broome": 1272870,
     "Jabari Walker": 724598,
+    "Dalen Terry": 39591,
     "Cameron Payne": 712637,
     "Charles Bassey": 131970,
     "Patrick Baldwin Jr.": 131970,
@@ -467,10 +474,11 @@
     "Jamison Battle": 1955377,
     "Jonathan Mogbo": 1955377,
     "Jamal Shead": 1955377,
-    "Tyreke Key": 51207,
+    "A.J. Lawson": 26394,
     "Chris Paul": 2296274,
     "Mohamed Bamba": 194771,
-    "Markelle Fultz": 131970
+    "Markelle Fultz": 131970,
+    "Tyreke Key": 51207
   },
   "Mavs": {
     "Kyrie Irving": 36566002,
@@ -527,6 +535,7 @@
     "Max Shulga": 212145,
     "Ron Harper Jr.": 123045,
     "Dalano Banton": 131970,
+    "Hayden Gray": 14631,
     "Charles Bassey": 131970,
     "John Tonje": 73153
   },
@@ -556,23 +565,7 @@
     "Keshon Gilbert": 73153,
     "Kadary Richmond": 73153
   },
-  "Timberwolves": {
-    "Anthony Edwards": 45550512,
-    "Rudy Gobert": 35000000,
-    "Julius Randle": 30864198,
-    "Jaden McDaniels": 24393103,
-    "Naz Reid": 21551724,
-    "Donte DiVincenzo": 11990000,
-    "Ayo Dosunmu": 7518518,
-    "Joan Beringer": 4201080,
-    "Terrence Shannon Jr.": 2674080,
-    "Joe Ingles": 2296274,
-    "Nah'Shon Hyland": 2296274,
-    "Julian Phillips": 2221677,
-    "Jaylen Clark": 2191897,
-    "Mike Conley": 725834,
-    "Kyle Anderson": 567470
-  },
+  "Timberwolves": {},
   "Cavaliers": {
     "Donovan Mitchell": 46394100,
     "Evan Mobley": 46394100,
