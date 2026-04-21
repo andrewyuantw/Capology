@@ -20,7 +20,7 @@
   },
   "Nets": {
     "Michael Porter Jr.": 38333050,
-    "Nicolas Claxton": 25352272,
+    "Nicolas Claxton": 25541760,
     "Terance Mann": 15500000,
     "Egor Demin": 6889200,
     "Ochai Agbaji": 6383525,
@@ -64,6 +64,7 @@
     "Brice Sensabaugh": 2693760,
     "Isaiah Collier": 2638200,
     "Bez Mbeng": 73153,
+    "Hayden Gray": 14631,
     "Jordan Clarkson": 10651561,
     "Lonzo Ball": 10000000,
     "Vincent Williams Jr.": 2301587,
@@ -75,7 +76,7 @@
   "Bucks": {
     "Giannis Antetokounmpo": 54126450,
     "Myles Turner": 25318251,
-    "Kyle Kuzma": 22410605,
+    "Kyle Kuzma": 22560605,
     "Bobby Portis": 13445754,
     "Ousmane Dieng": 6670882,
     "Kevin Porter Jr.": 5134000,
@@ -118,7 +119,7 @@
   "Bulls": {
     "Anfernee Simons": 27678571,
     "Josh Giddey": 25000000,
-    "Collin Sexton": 18975000,
+    "Collin Sexton": 19175000,
     "Zach Collins": 18080496,
     "Patrick Williams": 18000000,
     "Isaac Okoro": 11000000,
@@ -160,6 +161,7 @@
     "DeJon Jarreau": 131970,
     "Christian Koloko": 131970,
     "Rayan Rupert": 131970,
+    "Dariq Whitehead": 131970,
     "Lawson Lovering": 87784,
     "Tyler Burton": 73153,
     "Toby Okani": 73153,
@@ -228,8 +230,7 @@
     "Thomas Sorber": 4655040,
     "Jared McCain": 4221360,
     "Ajay Mitchell": 3000000,
-    "Mason Plumlee": 2296274,
-    "Dariq Whitehead": 131970
+    "Mason Plumlee": 2296274
   },
   "Hawks": {
     "C.J. McCollum": 30666666,
@@ -267,7 +268,7 @@
     "Jase Richardson": 2983320,
     "Noah Penda": 1272870,
     "Jevon Carter": 871000,
-    "Jamal Cain": 316727
+    "Jamal Cain": 328120
   },
   "Rockets": {
     "Kevin Durant": 54708609,
@@ -352,7 +353,7 @@
     "Herb Jones": 13937574,
     "Kevon Looney": 8000000,
     "Jeremiah Fears": 7520040,
-    "Saddiq Bey": 6118644,
+    "Saddiq Bey": 6229755,
     "Derik Queen": 5157960,
     "Jordan Hawkins": 4741320,
     "Yves Missi": 3353040,
@@ -378,7 +379,7 @@
     "Adem Bona": 1955377,
     "Johni Broome": 1272870,
     "Jabari Walker": 724598,
-    "Dalen Terry": 39591,
+    "Dalen Terry": 125931,
     "Cameron Payne": 712637,
     "Charles Bassey": 131970,
     "Patrick Baldwin Jr.": 131970,
@@ -482,7 +483,7 @@
   },
   "Mavs": {
     "Kyrie Irving": 36566002,
-    "Khris Middleton": 33296296,
+    "Khris Middleton": 35086419,
     "Klay Thompson": 16666667,
     "Daniel Gafford": 14386320,
     "PJ Washington": 14152174,
@@ -535,7 +536,6 @@
     "Max Shulga": 212145,
     "Ron Harper Jr.": 123045,
     "Dalano Banton": 131970,
-    "Hayden Gray": 14631,
     "Charles Bassey": 131970,
     "John Tonje": 73153
   },
@@ -565,7 +565,23 @@
     "Keshon Gilbert": 73153,
     "Kadary Richmond": 73153
   },
-  "Timberwolves": {},
+  "Timberwolves": {
+    "Anthony Edwards": 45550512,
+    "Rudy Gobert": 35000000,
+    "Julius Randle": 30864198,
+    "Jaden McDaniels": 24393103,
+    "Naz Reid": 21551724,
+    "Donte DiVincenzo": 11990000,
+    "Ayo Dosunmu": 7518518,
+    "Joan Beringer": 4201080,
+    "Terrence Shannon Jr.": 2674080,
+    "Joe Ingles": 2296274,
+    "Nah'Shon Hyland": 2296274,
+    "Julian Phillips": 2221677,
+    "Jaylen Clark": 2191897,
+    "Mike Conley": 725834,
+    "Kyle Anderson": 567470
+  },
   "Cavaliers": {
     "Donovan Mitchell": 46394100,
     "Evan Mobley": 46394100,
